@@ -40,7 +40,7 @@
 
 .social a {
     display: inline-block;
-    background-color: #ffc0cb;
+    background-color: #ccffff;
     padding: 8px 8px;
     text-decoration: none;
     border: 1px solid black;
@@ -50,7 +50,7 @@
 
 .social a:hover {
     background-color: black;
-    color: #ffc0cb;
+    color: #ccffff;
 }
 
 

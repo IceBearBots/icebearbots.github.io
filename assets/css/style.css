@@ -14,7 +14,7 @@ body {
 .navbar a {
     float: left;
     display: block;
-    background-color: #ffc0cb;
+    background-color: #f7cac9;
     text-align: center;
     padding: 8px 8px;
     text-decoration: none;
@@ -23,7 +23,7 @@ body {
 
 .navbar a:hover {
     background-color: black;
-    color: #ffc0cb;
+    color: #f7cac9;
 }
 
 .navbar .active {
@@ -46,7 +46,7 @@ body {
 .navfooter {
     word-wrap: normal;
     padding: 8px;
-    background-color: #ffc0cb;
+    background-color: #f7cac9;
     color: black;
     font-size: 12px;
     font-family:'Roboto Condensed', Arial;

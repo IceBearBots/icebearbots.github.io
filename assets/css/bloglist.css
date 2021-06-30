@@ -8,7 +8,7 @@
 .bloglist div {
   display: inherit;
   text-decoration: none;
-  background-color:#ffc0cb;
+  background-color:#f7cac9;
   color:black;
   padding: 8px;
   margin: 8px auto;
@@ -33,7 +33,7 @@
   max-width: 400px;
   font-family: 'Merriweather', Arial;
   display: block;
-  background-color: #c0cbff;
+  background-color: #ccffff;
   text-align: center;
   padding: 8px 8px;
   font-size: 14px;

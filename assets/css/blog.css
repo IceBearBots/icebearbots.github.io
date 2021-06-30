@@ -16,12 +16,12 @@
 }
 
 .blog div > a {
-    color: #6969FF:
+    color: #6969FF;
 }
 
 .blog div > img {
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 /* cyrillic-ext */
