@@ -17,17 +17,20 @@ body {
     background-color: #ffcccc;
     text-align: center;
     padding: 8px 8px;
-    text-decoration: none;
-    border-left: 1px solid black;
+    color: black !important;
+    text-decoration: none !important;
 }
 
 .navbar a:hover {
     background-color: black;
-    color: #f7cac9;
+    color: #ffcccc;
+    text-decoration: none;
 }
 
 .navbar .active {
+  text-decoration: none;
     background-color: #ffffcc;
+    color: black;
 }
 
 .navheader h1 {
