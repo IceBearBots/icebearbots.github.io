@@ -30,7 +30,6 @@ body {
 .navbar .active {
   text-decoration: none;
     background-color: #ffffcc;
-    color: black;
 }
 
 .navheader h1 {
