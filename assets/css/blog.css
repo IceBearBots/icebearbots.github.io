@@ -17,6 +17,7 @@
 
 .blog div > a {
     color: #6969FF;
+    text-decoration: none;
 }
 
 .blog div > img {

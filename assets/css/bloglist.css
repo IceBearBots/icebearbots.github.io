@@ -27,6 +27,7 @@
 }
 
 .bloglist div > a {
+  user-select: none;
   color: black;
   float: center;
   margin: 8px auto;

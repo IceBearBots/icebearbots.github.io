@@ -36,6 +36,9 @@
     font-family: 'Roboto Condensed', Arial;
     justify-content: center;
     text-align: center ;
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-select: none;
 }
 
 .social a {

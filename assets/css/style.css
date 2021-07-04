@@ -4,7 +4,20 @@ body {
     padding: 0px;
 }
 
+p::selection, h1::selection {
+  background-color: black;
+  color: white;
+}
+
+a::selection {
+  background-color: black;
+  color: #6969FF;
+}
+
 .navbar {
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-select: none;
     overflow: hidden;
     font-size: 14px;
     font-family: 'Roboto Condensed', Arial;
@@ -60,6 +73,7 @@ body {
 
 .navfooter a {
     color: #6969FF;
+    text-decoration: none;
 }
 
 .navshare {
@@ -71,6 +85,9 @@ body {
    font-family: 'Roboto Condensed', Arial;
    font-size: 12px;
    margin: 2px;
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-select: none;
 }
 
 .navshare:hover {
