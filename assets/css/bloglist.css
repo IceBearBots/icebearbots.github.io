@@ -13,7 +13,7 @@
   padding: 8px;
   margin: 8px auto;
   max-width: 800px;
-  border: 0.5px black solid;
+  border: 1px black solid;
 
 }
 
@@ -38,7 +38,7 @@
   padding: 8px 8px;
   font-size: 14px;
   text-decoration: none;
-  border: 0.5px black solid;
+  border: 1px black solid;
 }   
 
 .bloglist div > a:hover {

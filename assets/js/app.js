@@ -1,6 +1,3 @@
-window.oncontextmenu = function() {
-    return false;
-}
 window.onload = function() {
     console.log(new Date + ': Page fully loaded.')
     var navshare = document.getElementById('navshare');
@@ -25,4 +22,7 @@ window.onload = function() {
             console.log(new Date + ': Error encountered while displaying Privacy Policy.\n' + err) 
         }
     })
+    window.oncontextmenu = function() {
+        return false;
+    }
 }
