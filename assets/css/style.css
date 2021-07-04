@@ -4,13 +4,12 @@ body {
     padding: 0px;
 }
 
-p::selection, h1::selection {
-  background-color: black;
-  color: white;
+::selection {
+  background-color: black !important;
+  color: white;  
 }
 
 a::selection {
-  background-color: black;
   color: #6969FF;
 }
 
@@ -37,14 +36,13 @@ a::selection {
 
 .navbar a:hover {
     background-color: black !important;
-    color: #ffcccc !important;
+    color: white !important;
     text-decoration: none;
 }
 
 .navbar .active {
-  text-decoration: none;
-    background-color: #ffffcc;
-    color: black;
+  background-color: #ffffcc;
+  color: black;
 }
 
 .navheader h1 {
@@ -63,8 +61,8 @@ a::selection {
 .navfooter {
     word-wrap: normal;
     padding: 8px;
-    background-color: #f7cac9;
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 12px;
     font-family:'Roboto Condensed', Arial;
     overflow: hidden;
@@ -91,8 +89,9 @@ a::selection {
 }
 
 .navshare:hover {
-  color: #ccccff !important;
-  background-color: black !important;
+  color: black !important;
+  background-color: #ccccff !important;
+  border: 1px white solid !important;
 }
 
 @font-face {

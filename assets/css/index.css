@@ -1,5 +1,5 @@
 .bio {
-    background-color:#ffcce6;
+    background-color:#ffccff;
     justify-content: center;
     text-align: center;
 }
@@ -43,7 +43,7 @@
 
 .social a {
     display: inline-block;
-    background-color: #ccffff;
+    background-color: #ccccff;
     padding: 8px 8px;
     text-decoration: none;
     border: 1px black solid;
@@ -53,7 +53,7 @@
 
 .social a:hover {
     background-color: black;
-    color: #ccffff;
+    color: #ccccff;
 }
 
 
