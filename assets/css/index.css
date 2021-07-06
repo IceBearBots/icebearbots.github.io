@@ -8,6 +8,8 @@
     padding: 8px 8px;
     text-align: center;
     justify-content: center;
+    max-width: 600px;
+    display: inline-block;
 }
 
 .bio div>h1 {
@@ -22,11 +24,11 @@
     font-family: 'Montserrat', Arial;
     margin: 8px auto;
 }
-
 .bio div>img {
     width: 200px;
     height: 200px;
     object-fit: cover;
+    border-radius: 50%;
 }
 
 .social {
@@ -41,7 +43,7 @@
    -webkit-user-select: none;
 }
 
-.social a {
+.social > a {
     display: inline-block;
     background-color: #ccccff;
     padding: 8px 8px;

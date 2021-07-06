@@ -15,9 +15,9 @@
     font-size: 12px;
 }
 
-.blog div > a {
-    color: #6969FF;
-    text-decoration: none;
+.blog div a {
+    color: #6969FF !important;
+    text-decoration: none !important;
 }
 
 .blog div > img {

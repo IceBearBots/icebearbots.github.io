@@ -1,7 +1,8 @@
-
 body {
     margin: 0px;
     padding: 0px;
+    height: 100%;
+    background-color: black;
 }
 
 ::selection {
@@ -17,32 +18,33 @@ a::selection {
    user-select: none;
    -moz-user-select: none;
    -webkit-user-select: none;
-    overflow: hidden;
     font-size: 14px;
+    display: block;
     font-family: 'Roboto Condensed', Arial;
     background-color: black;
+    overflow: hidden;
 }
 
-.navbar a {
-    float: left;
-    display: block;
+.navbar>a {
+    display: inline-block !important;
     background-color: #ffcccc;
     text-align: center;
     padding: 8px 8px;
     color: black !important;
     text-decoration: none !important;
-    border: 1px black solid;
+    margin: 0px;
 }
 
-.navbar a:hover {
+.navbar>a:hover {
     background-color: black !important;
     color: white !important;
     text-decoration: none;
 }
 
-.navbar .active {
+.navbar>a.active {
   background-color: #ffffcc;
   color: black;
+  pointer-events: none;
 }
 
 .navheader h1 {
@@ -92,6 +94,20 @@ a::selection {
   color: black !important;
   background-color: #ccccff !important;
   border: 1px white solid !important;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+    background-color: white;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
 
 @font-face {
