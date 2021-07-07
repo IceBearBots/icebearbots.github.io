@@ -11,7 +11,7 @@ body {
 }
 
 a::selection {
-  color: #6969FF;
+  color: #6969FF !important;
 }
 
 .navbar {
@@ -78,7 +78,7 @@ a::selection {
 
 .navshare {
    background-color: #ccccff;
-   color: black;
+   color: black !important;
    display: inline-block;
    padding: 4px 4px;
    border: 1px black solid !important;
@@ -106,6 +106,7 @@ body::-webkit-scrollbar {
 }
  
 body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0);
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
     background-color: white;
 }
@@ -113,6 +114,21 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
+}
+
+.privacymodal {
+  display: none;
+  color: white;
+  font-family: 'Roboto Condensed', Arial;
+  text-align: center;
+}
+
+.privacymodal h1{
+  font-size: 18px;
+}
+
+.privacymodal p {
+  font-size: 12px;
 }
 
 @font-face {

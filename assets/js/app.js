@@ -14,13 +14,9 @@ window.addEventListener('load', () => {
             console.log(new Date + ': Error encountered while sharing Site.\n' + err);
         }
     })
-    var privacyalert = document.getElementById('privacyopen');
-    privacyalert.addEventListener('click', () => {
-        try {
-            alert(`We don't collect any data. We don't have a database to store anything actually ¯\\_(ツ)_/¯.\nIf FBI comes around enquiring about you, we have nothing to give them.`)
-        } catch(err) {
-            document.write(`We don't collect any data. We don't have a database to store anything actually ¯\\_(ツ)_/¯.<br>If FBI comes around enquiring about you, we have nothing to give them.`)
-        }
+    var privacyopen = document.getElementById('privacyopen');
+    privacyopen.addEventListener('click', () => {
+        location.replace('./privacy.html')
     })
     window.addEventListener('contextmenu', (e) => {
         return false;
