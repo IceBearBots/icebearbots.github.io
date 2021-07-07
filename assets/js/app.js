@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
             })
             console.log(new Date + ': Share menu has loaded.')
         } catch (err) {
-            alert("Unable to share Site. Just try copying the link manually instead.")
+            alert("Unable to Share Page. Just try copying the link manually instead.")
             console.log(new Date + ': Error encountered while sharing Site.\n' + err);
         }
     })
