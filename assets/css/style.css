@@ -116,21 +116,6 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
 }
 
-.privacymodal {
-  display: none;
-  color: white;
-  font-family: 'Roboto Condensed', Arial;
-  text-align: center;
-}
-
-.privacymodal h1{
-  font-size: 18px;
-}
-
-.privacymodal p {
-  font-size: 12px;
-}
-
 @font-face {
   font-family: 'Merriweather';
   font-style: normal;

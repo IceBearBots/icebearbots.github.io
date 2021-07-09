@@ -16,7 +16,7 @@ window.addEventListener('load', () => {
     })
     var privacyopen = document.getElementById('privacyopen');
     privacyopen.addEventListener('click', () => {
-        location.replace('./privacy.html')
+        location.replace('https://icebearbots.github.io/privacy.html')
     })
     window.addEventListener('contextmenu', (e) => {
         return false;
