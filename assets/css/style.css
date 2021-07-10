@@ -14,6 +14,10 @@ a::selection {
   color: #6969FF !important;
 }
 
+img {
+  cursor: zoom-in;
+}
+
 .navbar {
    user-select: none;
    -moz-user-select: none;
@@ -115,7 +119,43 @@ body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
 }
-
+.custommenu {
+  z-index: 1;
+  background-color: white;
+  position: fixed;
+  display: none;
+  border: 0.1px black solid;
+}
+.custommenuoptions {
+    list-style: none;
+    z-index: 1;
+    padding: 0px;
+    margin: 0px;
+}
+.custommenuoption {
+    font-family: 'Roboto Condensed', Arial;
+    font-size: 12px;
+    font-weight: normal;
+    min-width: 100px;
+    margin: 0px;
+    z-index: 1;
+    padding: 5px 5px 5px 5px;
+    color: black;
+    background: white;
+    font-size: 12px;
+    cursor: pointer;
+    border: 0.1px black solid !important;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.custommenuoption:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+.custommenuoption > a {
+  text-decoration: none;
+  color: black;
+}
 @font-face {
   font-family: 'Merriweather';
   font-style: normal;
