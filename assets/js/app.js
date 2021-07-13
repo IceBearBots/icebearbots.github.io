@@ -17,6 +17,30 @@ window.addEventListener('load', () => {
     privacyopen.addEventListener('click', () => {
         location.replace('https://icebearbots.github.io/privacy.html')
     })
+    var devtool = document.getElementById('devtool');
+    var devopen = document.getElementById('devopen');
+    devopen.addEventListener('click', () => {
+        try {
+            devtool.style.display = 'block';
+            var devsubmit = document.getElementById('devsubmit');
+            var devinput = document.getElementById('devinput');
+            devsubmit.addEventListener('click', () => {
+                try {
+                    eval(devinput.value);
+                    devsubmit.scrollTo({behavior: 'auto'})
+                } catch (err) {
+                    var deverr = document.getElementById('deverr');
+                    deverr.innerHTML = deverr.innerHTML + `<p>${err}</p>`;
+                }
+            })
+        } catch(err) {
+            console.error(new Date + ': Failed to open dev tools.')
+        }
+    })
+    var devclose = document.getElementById('devclose');
+    devclose.addEventListener('click', () => {
+        devtool.style.display = 'none';
+    })
     const menu = document.querySelector(".custommenu");
     const menuOption = document.querySelector(".custommenuoption");
     var menuvisible = false;

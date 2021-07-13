@@ -53,6 +53,11 @@
   color:#c0cbff;
 }
 
+.blogurl {
+  pointer-events: none;
+  color: black !important;
+}
+
 /* cyrillic-ext */
 @font-face {
     font-family: 'Merriweather';

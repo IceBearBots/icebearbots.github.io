@@ -26,6 +26,13 @@
     display: inline-block;
 }
 
+@media only screen and (min-width: 768px) {
+  .blog div > img, .blog div > video {
+    max-height: 600px;
+    max-width: 600px;
+  }
+}
+
 /* cyrillic-ext */
 @font-face {
     font-family: 'Merriweather';

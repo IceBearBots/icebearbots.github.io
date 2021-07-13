@@ -96,7 +96,6 @@ img {
 
 .navshare:hover {
   color: black !important;
-  background-color: #ccccff !important;
   border: 1px white solid !important;
 }
 
@@ -105,17 +104,17 @@ img {
 body{ top: 0 !important;}
 .goog-te-banner-frame{display: none !important;}
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 10px;
 }
  
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0,0,0,0);
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
     background-color: white;
 }
  
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
 }
@@ -152,6 +151,40 @@ body::-webkit-scrollbar-thumb {
 .custommenuoption > a {
   text-decoration: none;
   color: black;
+}
+.devtool {
+  display: none;
+  text-align: center;
+}
+.devinput {
+  font-family: 'Roboto Condensed', Arial;
+  font-size: 12px;
+  resize: none;
+}
+.devtool > {
+  display: inline-block;
+}
+.deverr {
+  color: white;
+  overflow-y: scroll !important;
+  max-height: 80px !important;
+  font-family: 'Roboto Condensed', Arial;
+  font-size: 12px;
+  width: 200px;
+  background-color: black;
+  display: inline-block;
+  word-break: break-all;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+.deverr > p {
+  padding: 4px;
+  margin: 4px;
+}
+#devclose, #devsubmit {
+  vertical-align: middle;
+  background-color: #ffffcc;
 }
 @font-face {
   font-family: 'Merriweather';
