@@ -120,7 +120,7 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
 }
 .custommenu {
-  z-index: 1;
+  position: absolute !important;
   background-color: white;
   position: fixed;
   display: none;
@@ -128,7 +128,6 @@ body::-webkit-scrollbar-thumb {
 }
 .custommenuoptions {
     list-style: none;
-    z-index: 1;
     padding: 0px;
     margin: 0px;
 }
@@ -138,12 +137,10 @@ body::-webkit-scrollbar-thumb {
     font-weight: normal;
     min-width: 100px;
     margin: 0px;
-    z-index: 1;
     padding: 5px 5px 5px 5px;
     color: black;
     background: white;
     font-size: 12px;
-    cursor: pointer;
     border: 0.1px black solid !important;
     user-select: none;
     -moz-user-select: none;

@@ -20,9 +20,10 @@
     text-decoration: none !important;
 }
 
-.blog div > img {
+.blog div > img, .blog div > video {
     max-height: 300px;
     max-width: 300px;
+    display: inline-block;
 }
 
 /* cyrillic-ext */
