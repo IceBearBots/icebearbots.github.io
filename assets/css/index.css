@@ -13,34 +13,31 @@
 }
 
 .bio div>h1 {
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Roboto Condensed', Arial;
     font-weight: normal;
     margin: 8px auto;
 }
 
 .bio div>p {
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Montserrat', Arial;
     margin: 8px auto;
 }
 .bio div>img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .social {
     overflow: hidden;
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
     font-family: 'Roboto Condensed', Arial;
     justify-content: center;
     text-align: center ;
-   user-select: none;
-   -moz-user-select: none;
-   -webkit-user-select: none;
 }
 
 .social > a {
@@ -56,15 +53,6 @@
 .social a:hover {
     background-color: black;
     color: #ccccff;
-}
-
-@media only screen and (min-width: 768px) {
-  .bio div>img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
 }
 
 /* cyrillic-ext */

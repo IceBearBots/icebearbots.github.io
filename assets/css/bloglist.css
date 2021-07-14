@@ -12,7 +12,7 @@
   color:black;
   padding: 8px;
   margin: 8px auto;
-  max-width: 800px;
+  max-width: 600px;
   border: 1px black solid;
 
 }
@@ -30,20 +30,19 @@
 }
 
 .bloglist div > h1.blogurl {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .bloglist div > a {
-  user-select: none;
   color: black;
   margin: 2px;
   max-width: 400px;
-  font-family: 'Merriweather', Arial;
+  font-family: 'Roboto Condensed', Arial;
   display: inline-block;
   background-color: #ccccff;
   text-align: center;
   padding: 8px 8px;
-  font-size: 12px;
+  font-size: 16px;
   text-decoration: none;
   border: 1px black solid;
 }   
@@ -56,6 +55,12 @@
 .blogurl {
   pointer-events: none;
   color: black !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .bloglist div {
+    max-width: 1000px;
+  }
 }
 
 /* cyrillic-ext */

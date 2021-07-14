@@ -18,12 +18,10 @@
         <link rel="manifest" href="./assets/img/site.webmanifest">
         <script src="./assets/js/app.js"></script>
         <noscript><style>body {background-color: white;}div:not(#noscript) {display: none;}</style><div id="noscript"><p>You might have turned off Javascript in your browser. This Site is mostly able to function without it, but some features will break down. We encourage you to switch it on.</p><a href="https://www.enable-javascript.com/">Learn more about how to enable Javascript in your browser.</a></div></noscript>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QSCMS15RR"></script>
-        <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-8QSCMS15RR');</script>
         <script>function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages:'en,zh-CN,zh-TW,es,pt,ru,ja,ko,fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, }, 'gtranslate');}</script>  
         <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>    </head>
     <header>
-        <div class="navbar">
+        <div class="navbar noselect">            
             <a href="./blog.html" class="active">Blog</a>
             <a href="./index.html">Home</a>
         </div>
@@ -36,34 +34,27 @@
             <div>
                 <h1 class="blogtitle">Lorem ipsum dolor sit amet.</h1>
                 <h1 class="blogurl"><a href="./blog/loremipsum.html">https://icebearbots.github.io/blog/loremipsum.html</a></h1>
-                <a href="./blog/loremipsum.html">View Post</a>
-                <a href="javascript:navigator.share({url:`./blog/loremipsum.html`})">Share Post</a>
+                <a class="noselect" href="./blog/loremipsum.html">View Post</a>
+                <a class="noselect" href="javascript:navigator.share({url:`./blog/loremipsum.html`})">Share Post</a>
             </div>
         </div>
     </body>
     <footer>
         <!--NavFooter-->
-        <div class="navfooter">
+        <div class="navfooter noselect">
             <p>We are <a href="https://github.com/IceBearBots/icebearbots.github.io" target="_blank">open source</a> (´・ω・｀) and you may <a href="mailto:icey.ggjt@gmail.com" target="_blank">contact us</a> if there is any queries.</p>
-            <a class="navshare" id="navshare">Share Page</a>
-            <a class="navshare" id="privacyopen">Privacy Policy</a>
-            <a class="navshare" id="devopen">Dev Tools</a>
-            <div style="display: inline-block;" id="gtranslate"></div>
+            <a class="navshare noselect" id="navshare">Share Page</a>
+            <a class="navshare noselect" id="privacyopen">Privacy Policy</a>
+            <div class="noselect" style="display: inline-block;" id="gtranslate"></div>
         </div>
-        <div class="devtool" id="devtool">
-            <div id="deverr" class="deverr"></div>
-            <textarea class="devinput" autocapitalize="none" autocomplete="off" name="devinput" id="devinput" cols="30" rows="5" required></textarea>
-            <br>
-            <button class="navshare" id="devsubmit">Evaluate</button>
-            <button class="navshare" id="devclose">Close DevTools</button>
-        </div>
-        <div class="custommenu" id="custommenu">
+
+        <div class="custommenu noselect" id="custommenu">
             <ul class="custommenuoptions">
-              <li class="custommenuoption" id="sourcecode" style="display: none;"></li>
-              <li class="custommenuoption" id="openlink" style="display: none;"></li>
-              <li class="custommenuoption" id="sharelink" style="display: none;"></li>
-              <li class="custommenuoption" id="rawimgvid" style="display: none;"></li>
-              <li class="custommenuoption" id="copytext" style="display: none;"></li>
+              <li class="custommenuoption noselect" id="sourcecode" style="display: none;"></li>
+              <li class="custommenuoption noselect" id="openlink" style="display: none;"></li>
+              <li class="custommenuoption noselect" id="sharelink" style="display: none;"></li>
+              <li class="custommenuoption noselect" id="rawimgvid" style="display: none;"></li>
+              <li class="custommenuoption noselect" id="copytext" style="display: none;"></li>
             </ul>
         </div>
     </footer>

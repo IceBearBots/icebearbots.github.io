@@ -14,15 +14,8 @@ a::selection {
   color: #6969FF !important;
 }
 
-img {
-  cursor: zoom-in;
-}
-
 .navbar {
-   user-select: none;
-   -moz-user-select: none;
-   -webkit-user-select: none;
-    font-size: 14px;
+    font-size: 16px;
     display: block;
     font-family: 'Roboto Condensed', Arial;
     background-color: black;
@@ -53,7 +46,7 @@ img {
 
 .navheader h1 {
     color: black;
-    font-size: 18px;
+    font-size: 22px;
     font-family: Merriweather, sans-serif;
     text-align: center;
     padding: 8px;
@@ -69,7 +62,7 @@ img {
     padding: 8px;
     background-color: black;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     font-family:'Roboto Condensed', Arial;
     overflow: hidden;
     text-align: center;
@@ -87,11 +80,8 @@ img {
    padding: 4px 4px;
    border: 1px black solid !important;
    font-family: 'Roboto Condensed', Arial;
-   font-size: 12px;
+   font-size: 14px;
    margin: 2px;
-   user-select: none !important;
-   -moz-user-select: none !important;
-   -webkit-user-select: none !important;
 }
 
 .navshare:hover {
@@ -139,11 +129,12 @@ body{ top: 0 !important;}
     padding: 5px 5px 5px 5px;
     color: black;
     background: white;
-    font-size: 12px;
     border: 0.1px black solid !important;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
+}
+.noselect {
+  user-select: none !important;
+  -moz-user-select: none !important;
+  -webkit-user-select: none !important;
 }
 .custommenuoption:hover {
   background-color: rgba(0,0,0,0.2);
@@ -151,40 +142,6 @@ body{ top: 0 !important;}
 .custommenuoption > a {
   text-decoration: none;
   color: black;
-}
-.devtool {
-  display: none;
-  text-align: center;
-}
-.devinput {
-  font-family: 'Roboto Condensed', Arial;
-  font-size: 12px;
-  resize: none;
-}
-.devtool > {
-  display: inline-block;
-}
-.deverr {
-  color: white;
-  overflow-y: scroll !important;
-  max-height: 80px !important;
-  font-family: 'Roboto Condensed', Arial;
-  font-size: 12px;
-  width: 200px;
-  background-color: black;
-  display: inline-block;
-  word-break: break-all;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-}
-.deverr > p {
-  padding: 4px;
-  margin: 4px;
-}
-#devclose, #devsubmit {
-  vertical-align: middle;
-  background-color: #ffffcc;
 }
 @font-face {
   font-family: 'Merriweather';
